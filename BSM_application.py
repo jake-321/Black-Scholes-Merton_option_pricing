@@ -10,7 +10,6 @@ exp_date, trade_date, strike_list, volatility_list, put_call, bid, ask = e0.get_
 
 all_n = np.arange(0,len(trade_date))
 rate = 0.001
-bsm = BlackScholesMerton(eq, op, rate)
 predic = []
 avg = []
 errors = []
